@@ -4,7 +4,10 @@ public abstract class Figura {
 	private Double base;
 	private Double altura;
 	
-	
+	public Figura(Double base, Double altura) {
+		this.base = base;
+		this.altura = altura;
+	}
 	public Double getBase() {
 		return base;
 	}

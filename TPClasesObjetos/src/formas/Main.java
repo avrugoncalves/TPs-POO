@@ -3,7 +3,7 @@ package formas;
 public class Main {
 
 	public static void main(String[] args) {
-		Rectangulo r1 = new Rectangulo();
+		Rectangulo r1 = new Rectangulo(150.40, 55.0);
 		r1.setBase(180.50);
 		r1.setAltura(50.00);
 		
@@ -11,7 +11,7 @@ public class Main {
 		
 		
 		
-		Triangulo tr1 = new Triangulo();
+		Triangulo tr1 = new Triangulo(130.40, 43.22);
 		tr1.setBase(149.50);
 		tr1.setAltura(55.40);
 		
